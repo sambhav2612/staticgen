@@ -1,0 +1,21 @@
+{
+  "name": "staticgen",
+  "version": "0.0.1",
+  "description": "a static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-pages": "node ./build_scripts/builder.js",
+    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\""
+  },
+  "author": "“Sambhav <“sambhavjain2612@gmail.com”> (“sambhav2612.github.io”)",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "eslint": "^4.16.0",
+    "fs-extra": "^5.0.0",
+    "live-server": "^1.2.0",
+    "markdown-it": "^8.4.0",
+    "nodemon": "^1.14.11"
+  }
+}
