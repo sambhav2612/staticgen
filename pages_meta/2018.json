@@ -1,0 +1,13 @@
+{
+    "lang": "en",
+    "title": "My 2018 Worklog",
+    "stylesheets": ["./css/style.css"],
+    "scripts": ["./js/main.js"],
+    "charset": "utf-8",
+    "description": "my 2018 worklog. site built using custom site generator",
+    "keywords": "worklog, 2018",
+    "author": "Sambhav Jain",
+    "favicon": "./images/favicon.png",
+    "viewport": "width=device-width, initial-scale=1",
+    "extra": []
+  }
