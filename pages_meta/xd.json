@@ -1,0 +1,13 @@
+{
+    "lang": "en",
+    "title": "Homepage",
+    "stylesheets": ["./css/style.css"],
+    "scripts": ["./js/main.js"],
+    "charset": "utf-8",
+    "description": "This is a page",
+    "keywords": "page, sample",
+    "author": "Sambhav Jain",
+    "favicon": "./images/next.svg",
+    "viewport": "width=device-width, initial-scale=1",
+    "extra": []
+  }

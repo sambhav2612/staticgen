@@ -1,0 +1,13 @@
+{
+    "lang": "en",
+    "title": "Blockchaining Everything",
+    "stylesheets": ["./css/style.css"],
+    "scripts": ["./js/main.js"],
+    "charset": "utf-8",
+    "description": "Read the title.",
+    "keywords": "blockchain, ico, cryptocurrencies, digital-ledgers, decentralized-systems",
+    "author": "Sambhav Jain",
+    "favicon": "./images/next.svg",
+    "viewport": "width=device-width, initial-scale=1",
+    "extra": []
+  }
