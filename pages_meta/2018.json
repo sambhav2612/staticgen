@@ -7,7 +7,7 @@
     "description": "my 2018 worklog. site built using custom site generator",
     "keywords": "worklog, 2018",
     "author": "Sambhav Jain",
-    "favicon": "./images/favicon.png",
+    "favicon": "./images/next.svg",
     "viewport": "width=device-width, initial-scale=1",
     "extra": []
   }

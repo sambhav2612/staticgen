@@ -7,7 +7,7 @@
     "description": "railway information project aka rip aka my s/w engineering project",
     "keywords": "rip, railway-information-portal, s/w-engineering",
     "author": "Sambhav Jain",
-    "favicon": "./images/favicon.png",
+    "favicon": "./images/next.svg",
     "viewport": "width=device-width, initial-scale=1",
     "extra": []
   }

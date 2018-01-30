@@ -50,7 +50,7 @@ module.exports = {
     description: 'This is a page',
     keywords: 'page, sample',
     author: 'None',
-    favicon: './images/favicon.png',
+    favicon: './images/next.svg',
     viewport: 'width=device-width, initial-scale=1',
     extra: []
   }
