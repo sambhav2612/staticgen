@@ -16,12 +16,21 @@
   <body>
     <h1>Railway Information Portal</h1>
 <p><strong>Overview</strong>: A s/w engineering project made on railway information portal where railway broadly signifies to Indian Railways/Indian Rail Network.</p>
+<hr>
 <h2>Index</h2>
 <ul>
 <li>Introduction</li>
+<li>SRS
+<ul>
+<li>Overview</li>
 <li>What to expect</li>
+<li>What not to expect</li>
+<li>Customers</li>
+<li>Functionalities</li>
+</ul>
+</li>
+<li>Features</li>
 <li>Stakeholders</li>
-<li>SRS</li>
 <li>DFD
 <ul>
 <li>Level 0</li>
@@ -31,9 +40,35 @@
 </li>
 <li>A little coding aspect</li>
 </ul>
+<hr>
 <h3>Introduction</h3>
+<p>Railway Information Portal aka R.I.P. aims at providing extensive services to the end-users following it's being developed on top of the Indian Rail Network Backbone.</p>
+<hr>
+<h3>SRS</h3>
+<p>S/W Requirement Specifications</p>
+<h4>Overview</h4>
 <p>The project aims at providing extensive services to the railway user by using the present parent backbone of the Indian Railway. Having an infomration portal could result in huge number of satisfied users with apt and to-date information about their travel journeys. We use the current railway backbone i.e., the unprocessed data for route network, track status, train directives, train number, train routes with specific station/platform enquiries, all being provided in real-time. Moreover, we can have a system to track the present train status (assuming it has been queried by the end-user beforehand) for the entire running course for last week i.e., we consider there could be a provision to display the train arrival-departure details for each of the running day.</p>
-<p>Every user goes through a login-signup procedure before they can view/enquire any information of their choice. On signup the user recieves a email verification link to verify the signup on the email address they used at the time of registration on the portal. Upon successful verification every user gets redirected to the login procedure as an entry would have been made into the central database for that end-user. Their are many features that can be incorporated within thier portal by building it on the top of the present railway network. Features include:</p>
+<p>Every user goes through a login-signup procedure before they can view/enquire any information of their choice. On signup the user recieves a email verification link to verify the signup on the email address they used at the time of registration on the portal. Upon successful verification every user gets redirected to the login procedure as an entry would have been made into the central database for that end-user. Their are many features that can be incorporated within thier portal by building it on the top of the present railway network.</p>
+<h4>What to expect</h4>
+<p>RIP works online to facilitate every visiting user to look into the extensive information of the Indian Railways. End-users can expect to receive in-depth information and services about the rail network.</p>
+<h4>What not to expect</h4>
+<p>The portal <em>does not</em> provides you a facility to book train tickets, instead you are redirected to the official booking site of Indian Railways.</p>
+<h4>Customers</h4>
+<p>Everyone. Primarily, the rail passengers. However, anyone can use the portal from child to adult.</p>
+<h4>Functionalities</h4>
+<ul>
+<li>Users should be able to register through their email addresses.</li>
+<li>Users can verfiy their email and proceed to login the portal.</li>
+<li>People should be able to view any train information once logged in.</li>
+<li>Each user can have his/her profile picture, statuses and as well as a field to keep their past journeys intact.</li>
+<li>Users can look for seat availability, calculate fare between two stations and last week's running status on the portal.</li>
+<li>Each user can provide feedback to their past journeys, which is rendered on the primary information page(s) specific to that journey.</li>
+<li>Users can enquire for their booked tickets i.e., PNR Status.</li>
+<li>People can post on the user forum and look into other user's posts on the forum.</li>
+</ul>
+<p>P.S. Pilot features like add-ons can be introduced later in functionalities.</p>
+<hr>
+<h3>Features</h3>
 <ul>
 <li>Search for train number
 <ul>
@@ -46,7 +81,7 @@
 <li>Train Running Status</li>
 <li>Seat Availability</li>
 <li>Fare Calculator</li>
-<li>User Feedback*</li>
+<li>User Feedback <strong>*</strong></li>
 </ul>
 </li>
 <li>Search by train number</li>
@@ -62,7 +97,8 @@
 </ul>
 </li>
 </ul>
-<p>*: User Feedback is provided by registered users on the portal based on thier past journeys.</p>
+<p><strong>*</strong>: User Feedback is provided by registered users on the portal based on thier past journeys.</p>
+<hr>
 
   </body>
 </html>
