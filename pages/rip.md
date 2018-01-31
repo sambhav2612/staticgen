@@ -13,12 +13,12 @@
   - What not to expect
   - Customers
   - Functionalities
+  - DFD
+    - Level 0
+    - Level 1
+    - Level 2
 - Features
 - Stakeholders
-- DFD
-  - Level 0
-  - Level 1
-  - Level 2
 - A little coding aspect
 
 ---
