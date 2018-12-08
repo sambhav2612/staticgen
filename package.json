@@ -6,15 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-pages": "node ./build_scripts/builder.js",
-    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\""
+    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "“Sambhav <“sambhavjain2612@gmail.com”> (“sambhav2612.github.io”)",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^3.5.1",
     "fs-extra": "^5.0.0",
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.1",
     "markdown-it": "^8.4.0",
-    "nodemon": "^1.14.11"
-  }
+    "nodemon": "^1.14.11",
+    "snyk": "^1.116.2"
+  },
+  "snyk": true
 }
